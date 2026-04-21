@@ -1,0 +1,45 @@
+body {
+	background-color: #808080;
+	color: white;
+}
+
+.middle {
+	text-align: center;
+	font-family: "Ariel";
+}
+
+div.general {
+	background-color: white;
+	color: black;
+	margin: 75px;
+	padding: 50px;
+}
+
+table, th, td {
+	border: 2px solid black;
+}
+
+th {
+	width: 33%;
+	text-align:left;
+	font-size: 1.0em;
+	font-family: "Ariel";
+}
+
+td {
+	text-align:left;
+	font-size: 0.5em;
+	font-family: "Ariel";
+}
+
+tr:nth-child(even) {
+	background-color: #000000;
+}
+
+table {
+  table-layout: fixed ;
+  width: 100% ;
+}
+td {
+  width: 25% ;
+}

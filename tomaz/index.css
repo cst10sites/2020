@@ -1,0 +1,25 @@
+body {
+	background-color: black;
+	color: lightgreen;
+}
+h1.center {
+	text-align: center;
+	font-size: 60px;
+}
+div.main {
+	background-color: black;
+	color: blue;
+	margin: 50px;
+	padding: 35px;
+}
+a.button {
+	background-color:red;
+	padding: 5px;
+	border: 2px solid black;
+	font-size: 1.2em;
+	color: white;
+	text-align: center;
+	display: inline-block;
+	border-radius: 5px;
+	text-decoration: none; /*Removes Underline*/
+	}

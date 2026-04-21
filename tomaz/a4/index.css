@@ -1,0 +1,56 @@
+body {
+	color: lightgreen;
+	background-image: url("https://flockler.com/thumbs/sites/192/james-morton-pizza_s1200x630_c1296x757_l0x106.jpg");
+	background-size: 100%;
+	}
+
+h1.center {
+	text-align: center;
+	color: white;
+	font-size: 5em;
+	margin: 25px
+}
+div.main {
+	background-color: white;
+	color: #FF4500;
+	margin: 40px;
+	padding: 30px;
+}
+a.button {
+	background-color: lightorange;
+	padding: 5px;
+	border: 2px solid white;
+	font-size: 1.75em;
+	color: white;
+	text-align: center;
+	display: inline-block;
+	border-radius: 5px;
+	text-decoration: none; /*Removes Underline*/
+}
+table.main {
+	color:black;
+	width:80%;
+	text-align:center;
+}
+/*Unvisited Site*/
+a:link {
+	color:orange;
+	}
+/*Visited Site*/
+a:visited {
+	color:orange;
+	}
+/*Mouse Over*/
+a:hover {
+	color:limegreen;
+	}
+/*Click On*/
+a:active {
+	color:magenta;
+	}
+/*Random Button*/
+a {
+	background-color:black;
+	padding: 5px;
+	text-align: center;
+	text-decoration: none; /*Removes Underline*/
