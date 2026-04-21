@@ -1,0 +1,27 @@
+
+body {
+	background-color: black;
+	color: lightgreen;
+	
+}
+
+div{
+	background-color: white;
+	color: black;
+	margin: 100px;
+	padding: 50px;
+	
+}
+a.button {
+	background-color: orange;
+	color: white;
+	padding: 15px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block 
+	border-radius 
+}
+table, th, td {
+border: 1px solid black;	
+
+}

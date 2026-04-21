@@ -1,0 +1,19 @@
+body{
+	background-color: Black;
+	color: white;
+}
+
+h1.center {
+	text-align: center;
+}
+
+div.main {
+	background-color: lightgray;
+	color: black;
+	margin: 75px;
+	padding: 50px;
+}
+
+span{
+	color: red;
+}

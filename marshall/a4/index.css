@@ -1,0 +1,238 @@
+h1{
+	color: white;
+	padding: 10px;
+	text-align: center;
+}
+
+header{
+	padding: 60px;
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	background-image: url(space3.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+body {
+	color: black;
+	font-size: 20px;
+	border: 0px;
+    background-image: url(space3.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 10px;
+}
+
+
+.navbar a {
+    float: left;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+.subnav {
+    float: left;
+    overflow: hidden;
+}
+
+
+.subnav .subnavbtn {
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+    background-color: lightgrey;
+}
+
+
+.subnav-content {
+    display: none;
+    position: absolute;
+    left: 25;
+    background-color: #15C3ED;
+    width: 99px;
+    z-index: 1;
+}
+
+
+.subnav-content a {
+    float: left;
+    color: white;
+    text-decoration: none;
+}
+
+
+.subnav-content a:hover {
+    background-color: #eee;
+    color: black;
+}
+
+
+.subnav:hover .subnav-content {
+	
+    display: block;
+}
+
+
+.wrapper {
+    display: block;
+    position: absolute;
+    top: 15%;
+    left:50%;
+    -webkit-transform: translate(-50%,-50%);
+}
+
+
+a.effect-shine:hover {
+  -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
+  -webkit-mask-size: 200%;
+  animation: shine 2s infinite;
+}
+
+@-webkit-keyframes shine {
+  from {
+    -webkit-mask-position: 150%;
+  }
+  
+  to {
+    -webkit-mask-position: -50%;
+  }
+}
+
+a:hover{
+	color: grey;
+	text-decoration: none;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+.hero {
+    
+    width: 100vw;
+    height: 100vh;
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    text-align: center;
+    color: white;
+    
+    
+    background-image: url(earth3.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	border-radius: 5px;
+}
+
+.hero h1 {
+    
+    font-size: 50px;
+	font: Helvetica;
+    
+    
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+div.text {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-left: 15%;
+	margin-right: 15%;
+	padding: 1px 16px;
+	border-radius: 5px;
+	text-align: left;
+	background-color: black;
+	color: white;
+	opacity: 0.8;
+}
+
+h2{
+	color: #15C3ED;
+	font-size: 40px;
+	font: Helvetica;
+	text-align: center;
+	text-decoration: underline;
+}
+
+h3{
+	color: lightblue;
+	font-size: 30px;
+	font: Helvetica;
+	text-align: center;
+	text-decoration: none;
+	padding: 0px;
+}
+
+p{
+	color: white;
+	font-size: 20px;
+	font: Helvetica;
+	text-align: left;
+	text-decoration: none;
+	padding: 10px;
+}
+
+img{
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+img:hover{
+    border: 2px solid lightblue;
+    border-radius: 4px;
+    padding: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.figure{
+	text-align: center;
+	margin-top: -10px;
+}
+
+.color{
+	color: lightblue;
+	text-decoration: underline;
+}
+	

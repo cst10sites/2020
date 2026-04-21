@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset = "UTF-8">
+<title> Assignment 3: Common HTML tags </title>
+<style>
+
+table{
+		background-color: white;
+		color: black 5px;
+}
+
+body{
+		background-color: lightblue;
+		color: black 5px;
+		border: 10px solid #E6E6FA
+}
+
+h1{
+	color: darkblue;
+	text-align: center;
+}
+
+h2{
+	color: red;
+	text-align: center;
+}
+
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 15px;
+	text-align: left;
+	border-spacing: 5px;
+}
+</style>
+</head>
+<body>
+
+<h1> Common HTML tags </h1>
+
+<div>
+<table style = "width:1200px" align = "center">
+
+<tbody>
+
+<tr>
+
+<th>Tags</th>
+
+<th>Definition</th>
+
+<th>Examples</th>
+
+</tr>
+
+<tr>
+
+<td>&lt;html&gt;</td>
+
+<td>used as a container for all of the HTML of an entire document. It tells the browser that the document is an html document.</td>
+
+<td>This file is an html file</td>
+
+</tr>
+
+<tr>
+
+<td>&lt;head&gt;</td>
+
+<td>a container for all the head elements, which can include a title for the document, meta information, styles, scripts, and more.</td>
+
+<td>&lt;head&gt; &lt;title&gt; This is a title &lt;/title&gt; &lt;/head&gt;</td>
+
+</tr>
+
+<tr>
+
+<td>&lt;title&gt;</td>
+
+<td>creates the title</td>
+
+<td>&lt;title&gt; Assignment 1: Tags &lt;/title&gt;</td>
+
+</tr>
+
+<tr>
+
+<td>&lt;body&gt;</td>
+
+<td>defines the document's body, which contains all the contents of an HTML document, including text, tables, images, lists, hyperlinks, and so on.</td>
+
+<td>&lt;body&gt; This is content &lt;/body&gt;</td>
+
+</tr>
+
+
+<tr>
+
+<td>&lt;p&gt;</td>
+
+<td>Starts a new paragraph</td>
+
+<td>&lt;p&gt; This is a new paragraph &lt;/p&gt;</td>
+
+</tr>
+
+<tr>
+
+<td>&lt;h1&gt; - &lt;h6&gt;</td>
+
+<td>creates a header (size according to the number after "h". Size ranges from 1 - 6)</td>
+
+<td>&lt;h4&gt;
+
+<h4>This is a medium (&lt;h4&gt;) header</h4>
+
+&lt;/h4&gt;</td>
+
+</tr>
+
+<tr>
+
+<td>&lt;em&gt; and &lt;strong&gt;</td>
+
+<td>&lt;em&gt; to italicize; &lt;strong&gt; to bolden</td>
+
+<td>&lt;em&gt; <em>fancy</em> &lt;/em&gt; This is the &lt;strong&gt; <strong>FINAL</strong> &lt;/strong&gt; level</td>
+
+</tr>
+
+<tr>
+
+<td>&lt;br&gt;</td>
+
+<td>breaks a line and starts a new line</td>
+
+<td>This is a sentence. &lt;br&gt; <br /> This is a second sentence.</td>
+
+</tr>
+
+<tr>
+
+<td>&lt;a href= "URL"&gt;</td>
+
+<td>Creates a hyperlink. default target is current webpage. Use target = "_blank" to open the link in a new tab</td>
+
+<td>this is a link: <a href="https://www.w3schools.com/" target="_blank" rel="noopener">w3school.com</a></td>
+
+</tr>
+
+<tr>
+
+<td>&lt;img src = "URL or file name"&gt;</td>
+
+<td>Creates an internal or external image. Internal images are images that are in the same folder as the HTML file. External images are any images from the internet.</td>
+
+<td><img src="https://hips.hearstapps.com/del.h-cdn.co/assets/17/12/1490206019-big-mac-beauty.jpg?resize=480:*" alt="big mac" style="width:30%;margin:5px;"><br> 
+This is an image of a big mac (yummy)</td>
+
+</tr>
+
+<tr>
+
+<td>&lt;ul&gt;</td>
+
+<td>Creates an unordered list (bullets)</td>
+
+<td>
+
+<ul>
+
+<li>item 1</li>
+
+<li>item 2</li>
+
+</ul>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>&lt;ol&gt;</td>
+
+<td>Creates an ordered list (numbered)</td>
+
+<td>
+
+<ol>
+
+<li>item 1</li>
+
+<li>item 2</li>
+
+</ol>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>&lt;div&gt;</td>
+
+<td>Divides up page content into sections, and applying styles</td>
+
+<td>&lt;div&gt; This is a sentence &lt;div&gt;</td>
+
+</tr>
+
+<tr>
+
+<td>&lt;table&gt;</td>
+
+<td>Creates a table. Use th, tr, and td to create table heading (th), row (tr), and data (td).</td>
+
+<td>This is a table inside a table:
+
+<table>
+
+<tbody>
+
+<tr>
+
+<th>Name</th>
+
+<th>Age</th>
+
+<th>Satisfaction in life</th>
+
+</tr>
+
+<tr>
+
+<td>John</td>
+
+<td>35</td>
+
+<td>45/100</td>
+
+</tr>
+
+<tr>
+
+<td>Sophia</td>
+
+<td>27</td>
+
+<td>94/100</td>
+
+</tr>
+
+<tr>
+
+<td>Bob</td>
+
+<td>15</td>
+
+<td>5/100</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>&lt;span&gt;</td>
+
+<td>used for grouping and applying styles to inline elements</td>
+
+<td>&lt;span style = "color:red;"&gt; This is a paragraph&lt;/span&gt;<br /> <span style="color: red;"> This is a paragraph </span></td>
+
+</tr>
+
+<tr>
+
+<td>&lt;iframe&gt;</td>
+
+<td>used to embed another document within the HTML document</td>
+
+<td><iframe width="560" height="315" src="https://www.youtube.com/embed/HqpFo7ETo44" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+
+</tr>
+
+<tr>
+
+<td>&lt;link&gt;</td>
+
+<td>used to html document link to external style sheets</td>
+
+<td>&lt;link rel="stylesheet" type="text/css" href="Lesson 5.css"&gt; <br /> This links the current html document to a CSS document named Lesson 5.css</td>
+
+</tr>
+
+<tr>
+
+<td>&lt;hr&gt;</td>
+
+<td>creates a thematic break in an HTML page to divide or separate document sections</td>
+
+<td>This is what is looks like:<hr />This is text that is below the &lt;hr&gt; tag</td>
+
+</tr>
+
+</tbody>
+
+</table>
+</div>
+
+<h2> Work Cited </h2>
+
+<p style="margin-left:.5in;text-indent:-.5in">
+HTML Element Reference - By Category. (n.d.). Retrieved February 28, 2020, from https://www.w3schools.com/tags/ref_byfunc.asp <br>
+Samadder, S. (2018, December 3). Most commonly used tags in HTML. Retrieved February 28, 2020, from https://www.geeksforgeeks.org/most-commonly-used-tags-in-html/ <br>
+University of Botswana History Department. (n.d.). Common HTML Tags. Retrieved February 28, 2020, from http://www.thuto.org/ubh/web/html/tags1.htm <br>
+</p>

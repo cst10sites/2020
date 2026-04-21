@@ -1,0 +1,56 @@
+body {
+	background-color: black;
+	color: #DAA520;
+	background-image: url("https://www.getfootballnewsfrance.com/assets/fbl-esp-liga-real-madrid-rayo-806x537.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+h1.center {
+	text-align: center;
+	color: #DAA520;
+	font-size: 4.5em;
+}
+
+div.main {
+	background-color: #DAA520;
+	color: black;
+	margin: 75px;
+	padding: 50px;
+}
+
+a.button {
+	/* CSS buttons on w3schools*/
+	padding: 5px;
+	background-color: orange;
+	color: white;
+	text-decoration: none;
+	border: 2px solid white;
+	border-radius: 2px;
+	display: inline-block;
+	font-size: 1.75em;
+}
+
+a:link {
+	color: #DAA520;
+}
+
+/* visited */
+a:visited {
+	color: black;
+}
+
+/* Mouse over */
+a:hover {
+	color:skyblue
+}
+
+/* click on */
+a:active {
+	color:hotpink
+}
+
+table{
+  border: 1px solid black;
+  background-color: #DAA520
+}

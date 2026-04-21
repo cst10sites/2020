@@ -1,0 +1,115 @@
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+  color: white;
+  font-family: cooper black;
+  font-size: 18px;
+}
+
+ol {
+  color: white;
+  font-family: cooper black;
+  font-size: 18px;
+}
+
+.menu{margin:0 auto; padding:0; height:30px; width:100%; display:block; background:url('topMenuImages.png') repeat-x;}
+.menu li{padding:0; margin:0; list-style:none; display:inline;}
+.menu li a{float:left; padding-left:15px; display:block; color:rgb(255,255,255); text-decoration:none; font:12px Verdana, Arial, Helvetica, sans-serif; cursor:pointer; background:url('topMenuImages.png') 0px -30px no-repeat;}
+.menu li a span{line-height:30px; float:left; display:block; padding-right:15px; background:url('topMenuImages.png') 100% -30px no-repeat;}
+.menu li a:hover{background-position:0px -60px; color:rgb(255,255,255);}
+.menu li a:hover span{background-position:100% -60px;}
+.menu li a.active, .menu li a.active:hover{line-height:30px; font:12px Verdana, New Times Roman, Helvetica, sans-serif; background:url('topMenuImages.png') 0px -90px no-repeat; color:rgb(255,255,255);}
+.menu li a.active span, .menu li a.active:hover span{background:url('topMenuImages.png') 100% -90px no-repeat;}
+
+li a:hover:not(.active) {
+	background-color: rgba(255,0,0,0.3);
+	/*rgba(0, 0, 0, 0.5)*/
+	transition-duration: 0.1s;
+}
+.active {
+	background-color: rgba(255,0,0,0.3);
+	height:64px;
+}
+.active2 {
+	background-color: rgba(255,0,0,0.3);
+}
+.active3 {
+	width: 92px;
+	height: 64px;
+	background-color: rgba(255,0,0,0.3);
+}
+
+div.main {
+	
+	background-color: rgba(93, 37, 182, 1);
+
+}
+
+h1 {
+	font-family: Courier;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	font-size: 100px;
+}
+h1.page {
+	font-family: Cooper black;;
+    text-align: center;
+	font-weight: bold;
+	color: white;
+	font-size: 50px;
+}
+
+div.secondary {
+	/*height: 0px;
+	width: 0px;
+	margin: auto;*/
+	text-align: center;
+}
+
+a.button {
+	padding: 20px;
+	color: white;
+	text-decoration: none;
+	border: 2px solid #0080FF;
+	border-radius: 5px;
+	font-size: 60px;
+	font-family: "Times New Roman";
+	background-color: rgba(93, 37, 182, 1);
+	font-weight: bold;
+	transition-duration: 0.4s;
+}
+
+
+Button Hover CSS
+a.button:hover {
+	padding: 20px;
+	color: black;
+	text-decoration: none;
+	border: 2px solid #0080FF;
+	border-radius: 5px;
+	font-size: 60px;
+	font-family: "Times New Roman";
+	background-color: #ff5959;
+	font-weight: bold;
+}
+
+.imagestyle1 {
+ position: relative; top: -90px; }
+
+img {
+	opacity: 1;
+	margin-top: 70px;
+	margin-left: 50px;
+}
+
+.content {
+	color: white;
+	font-family: cooper black;
+	font-size: 18px;
+	text-align: center;
+}

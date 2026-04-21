@@ -1,0 +1,24 @@
+body {
+	background-color: black;
+	color: lightgreen;
+}
+.center {
+	text-align: center;
+}
+div.main {
+	background-color: lightgrey;
+	color:black;
+	margin: 75px;
+	padding: 50px;
+}
+a.button {
+	padding: 20px;
+	background-color: orange;
+	color: white;
+	text-decoration: none;
+	border: 2px solid black;
+	border-radius: 5px;
+	display: inline-block;
+	font-size: 1.2em;
+	font-family: "Courier";
+}

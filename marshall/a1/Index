@@ -1,0 +1,17 @@
+<!DOCTYPE>
+<html>
+  <head>
+  <html lang="en">
+    <meta charset="UTF-8">
+    <title>Assignment 1 - About Me</title>
+  </head>
+  <body>
+<h1> About Me </h1>
+<h2> Introduction </h2>
+Hello! My name <strong>Marshall</strong> and I have lived for 15 years <em>(technically 16 but ok)</em>.<br>
+My parents are both born in china, which make me a 100% pure banana.
+I was born in Montreal, but I moved around a lot and changed schools multiple times.
+I currently attend Kisilano secondary school, which is much bigger than any other schools I've been to.
+<em>(I feel like I'm giving away too much personal information.)</em>
+  </body>
+</html>
