@@ -1,0 +1,31 @@
+p {
+    background-color: lightblue;
+    color: black;
+    margin: 75px;
+    padding: 50px;
+}
+h1{ 
+    background-color: steelblue;
+    color: black;
+    margin: 75px;
+    padding: 50px;
+}
+
+img{
+    background-color: wheat;
+    color: transparent;
+    margin: 75px;
+    padding: 50px;
+}
+ol{
+    background-color: lightblue;
+    color: black;
+    margin: 75px;
+    padding: 50px;
+}
+ul{
+    background-color: lightblue;
+    color: black;
+    margin: 75px;
+    padding: 50px;
+}

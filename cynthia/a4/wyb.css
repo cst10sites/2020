@@ -1,0 +1,47 @@
+p {
+    background-color: White;
+    color: black;
+    margin: 75px;
+    padding: 50px;
+}
+
+h1{
+    background-color: ;
+    color: White;
+    margin: 75px;
+    padding: 50px;
+}
+
+img{
+    background-color:;
+    color: transparent;
+    margin: 75px;
+    padding: 50px;
+}
+
+ol{
+    background-color: lightblue;
+    color: black;
+    margin: 75px;
+    padding: 50px;
+}
+
+ul{
+    background-color: lightblue;
+    color: black;
+    margin: 75px;
+    padding: 50px;
+}
+
+a.button {
+background-color: lightgreen;
+color: mediumseagreen;
+padding: 15px 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+border-style: solid;
+border-color: lightslategray;
+border: 2px solid: lightslategray;
+border-radius: 12px;
+}

@@ -1,0 +1,94 @@
+h1{
+	color: white
+}
+
+body{
+	color: black;
+	margin: 50px 100px;
+	background-image: url("background.jpg");
+	background-size: 175%;
+}
+
+.content {
+	height: 85%;
+	padding: 50px; 
+	background-color: lightgoldenrodyellow;
+	padding: 20px; 
+}
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+p {
+	font-size: 20px;
+}
+
+.topbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: lemonchiffon;
+}
+
+.active {
+  background-color: crimson;
+  color: white;
+}
+
+li {
+  
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: lightyellow;
+  color: black;
+}
+
+iframe {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+table, td, th {
+border: 1px solid black; 
+border-collapse: collapse;
+height: 360px;
+}
+
+table{
+width: 100%;
+}
+
+th{
+padding: 7px;
+}
+
+hr { 
+    display: block;
+    margin-before: 0.5em;
+    margin-after: 0.5em;
+    margin-start: auto;
+    margin-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}

@@ -1,0 +1,27 @@
+body {
+	background-color: #FCDECB;
+	color: white;
+}
+
+h1.center {
+	text-align: center;
+}
+
+div.main {
+	background-color: #b19cd9;
+	color: white;
+	margin: 75px;
+	padding: 50px;
+}
+
+a.button {
+	/* CSS Buttons on w3schools */
+	padding: 20px;
+	background-color: light-blue;
+	color: white;
+	text-decoration: none;
+	border: 2px solid black;
+	border-radius: 5px;
+	display: inline-block;
+	font-size: 1.2em;
+	font-family: "comic Sans MS";

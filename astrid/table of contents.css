@@ -1,0 +1,27 @@
+
+
+body {
+        background-color:azure;
+		color:darkslateblue;
+}
+.center {
+	text-align:center;
+}
+div.main {
+	background-color:white;
+	color:black;
+	margin:75px;
+	padding:50px;
+}
+         a.button{
+         background-color: lightseagreen;
+         border: none;
+         color: white;
+         padding: 20px 34px;
+         text-align: center;
+         text-decoration: none;
+         display: inline-block;
+         font-size: 20px;
+         margin: 4px 2px;
+         cursor: pointer;
+         }

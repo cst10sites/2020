@@ -1,0 +1,21 @@
+body {
+	background-image: url("spongebob.jpg");
+	background-color: white;
+}
+
+div.main {
+	text-align: center;
+}
+
+a.button {
+	color: black;
+	padding: 15px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+
+div.main {
+	text-align: center;
+	font-size: 40px;
+}
