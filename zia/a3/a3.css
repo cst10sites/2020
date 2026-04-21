@@ -1,0 +1,20 @@
+body {
+	background-color: peachpuff;
+	color: black;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  background-color: white;
+  margin: 5px;
+}
+th, td {
+	padding: 5px;
+	text-align: left;
+}
+div {
+	background-color: peachpuff;
+	color: black;
+	margin: 5px;
+	padding: 5px;
+}

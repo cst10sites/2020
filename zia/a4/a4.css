@@ -1,0 +1,84 @@
+body {
+	background-image: url(https://previews.123rf.com/images/nikitos77/nikitos771907/nikitos77190700070/127509825-cracked-clay-ground-into-the-dry-season.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	margin: 30px 200px;
+	font-family: "verdana", arial, sans-serif;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+}
+html {
+	width: 100%;
+	height: 100%;
+}
+div.main {
+	background-color: peachpuff;
+	margin-left: 195px;
+	margin-right: 200px;
+	color: black;
+	padding: 25px;
+	height: 85%;
+	overflow-y: scroll;
+	position: fixed;
+}
+div.sidebar {
+	background-color: white;
+	color: black;
+	position: fixed;
+	height: 85%;
+	width: 145px;
+	padding: 25px;
+}
+.sidebar a:hover {
+	color: black;
+	background-color: peachpuff;
+	font-size: 185%;
+	font-family: "arial";
+}
+.sidebar a {
+	color: grey;
+	font-size: 140%;
+	text-decoration: none;
+}
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+h1.head {
+	border: 2px dotted white;
+	text-align: center;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: 5px;
+}
+th, td {
+	padding: 5px;
+	text-align: left;
+}
+tr:nth-child(even) {
+	background-color: white;
+}
+tr:nth-child(odd) {
+	background-color: lightgrey;
+}
+th {
+	background-color: black;
+	color: white;
+
+}
+table {
+	width: 100%;
+}
+.right {
+	float: right;
+}
+.left {
+	float: left;
+}
