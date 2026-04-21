@@ -1,0 +1,23 @@
+body {
+	background-color: black;
+	color: lightgreen;
+}
+
+div.main{
+	background-color: white;
+	color: black;
+	margin: 100px;
+	padding: 50px;
+}
+
+a.button {
+	background-color:orange;
+	color: white;
+	padding: 5px 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 5px;
+	border: 2px solid black;
+	
+}

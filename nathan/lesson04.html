@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Lesson 4: CSS</title>
+<!--internal CSS goes here inside head tag-->
+<style>
+/* Comments in CSS*/
+body {
+	background-color: black;
+	color: white;
+	margin: 100px 50px;
+}
+div{
+	background-color: lightgrey;
+	color: black;
+	padding: 100px;
+}
+/*button*/
+a {
+	background-color: blue;
+	padding: 15px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: incline-block;
+}
+/* Unvisited link*/
+a:link{
+	
+	color: white;
+}
+/* Visited link*/
+a:visited{
+	color: green;
+}
+/*mouse over8*/
+a:hover{
+	background-color: grey;
+	color: gold;
+}
+/* click on */
+a:active{
+    background-color: lightgreen;
+	color: red;
+}
+
+</style>
+</head>
+<body>
+<h1>Lesson 4: Internal and Inline CSS</h1>
+<div>
+<h2>Examples</h2>
+<p>Write a <span style="color:red; background-color:yellow;">random</span> sentence.</p>
+<p style="color:white;/* use lightgrey to completely hide*/">Write a hidden message.</p>
+<p>For more inof, check out 
+<a href="https://w3schools.com/css" target="-blank">w3schools</a>!</p>
+</div>
+</body>
+</html>

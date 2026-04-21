@@ -1,0 +1,35 @@
+body{
+	background-image: url("https://i.redd.it/0um3t9v8w3s21.jpg");
+	margin: 25px 25px;
+}
+.sidebar a {
+	color: rgb(255, 189, 0);
+	font-size: 125%;
+	text-decoration: none; /* remove underline */
+	display: block /*put the word to the second line*/
+}
+
+.sidebar a:hover {
+	color: rgb(255, 63, 0);
+	background-color: rgb(255, 189, 0);
+	font-size: 150%;
+	border: 1px solid rgb(255, 189, 0);
+	border-radius: 5px;
+}
+.sidebar {
+	height: 85%;
+	width: 200px;
+	padding: 20px;
+	position: fixed;
+	background-color: black;
+	}
+.content {
+	margin-left: 240px; /* at least width of sidebarplus twice it's padding*/
+	margin-right: 150px; /*same as margin of page (body) */
+	padding: 20px;
+	color: rgb(139, 100, 0);
+	background-color: rgb(0, 55, 0);
+	position: fixed;
+	overflow-y: scroll;
+	height: 85%;
+}
