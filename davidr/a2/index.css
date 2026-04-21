@@ -1,0 +1,26 @@
+body{
+	background-color: black;
+	color: lightgreen;
+	
+}
+
+div.main{
+	background-color: white;
+	color: black;
+	margin: 100px;
+	padding: 50px;
+	
+}
+
+a.button{
+	background-color: blue;
+	color: white;
+	padding: 5px;
+	text-align: center;
+	text-decoration: none;
+	/* text-decoration: underline; */
+	display: inline-block;
+	border: 5px solid red;
+	
+	
+}

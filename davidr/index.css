@@ -1,0 +1,26 @@
+body{
+	background-color: black;
+	color: red;
+	
+}
+
+div.main{
+	background-color: lightgray;
+	color: red;
+	margin: 50px;
+	padding: 50px;
+	
+}
+
+a.button{
+	background-color: blue;
+	color: white;
+	padding: 5px;
+	text-align: center;
+	text-decoration: none;
+	/* text-decoration: underline; */
+	display: inline-block;
+	border: 5px solid red;
+	
+	
+}

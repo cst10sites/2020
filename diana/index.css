@@ -1,0 +1,39 @@
+body {
+	margin: 69px;
+	background-color: darkmagenta;
+	color: cadetblue;
+}
+
+div.main {
+	background-color: antiquewhite;
+	color: coral;
+	margin: 90px;
+	padding: 50px;
+}
+
+a.button {
+	background-color: darksalmon;
+	color: darkslateblue;
+	padding: 15px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	border-color: darkgrey;
+	border-radius: 4px;
+	border-width: 3px;
+	border-style: outset;
+}
+
+a.button:hover {
+	transition-duration: 0.6s;
+	background-color: darkorange;
+	color: darkred;
+	padding: 15px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	border-color: darkkhaki;
+	border-radius: 10px;
+	border-width: 3px;
+	border-style: outset;
+}

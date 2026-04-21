@@ -1,0 +1,111 @@
+
+.sidebar {
+	height: 89%;
+	width: 200px;
+	padding: 20px;
+	position: fixed;
+	background-color: lavenderBlush;
+	color: lightcoral;
+}
+.content {
+	margin-left: 200px; /* at least width of sidebarplus twice it's padding*/
+	margin-right: 10px; /*same as margin of page (body) */
+	padding: 15px;
+	color: coral;
+	background-color: lightpink;
+	position: fixed;
+	overflow-y: scroll;
+	height: 90%;
+}
+
+.sidebar a {
+	color: peru;
+	font-size: 150%;
+	text-decoration: none; /* remove underline */
+	display: block; /*put the word to the second line*/
+}
+
+.sidebar a:hover {
+	color: rebeccapurple;
+	background-color: pink;
+	font-family: cursive;
+	font-size: 200%;
+}
+
+.textbox {
+	background-color: cornsilk;
+	color: darkgoldenrod;
+	font-size: 20px;
+	border-style: inset;
+	border-width: 6px;
+	border-color: crimson;
+	padding: 50px;
+	top: 60px;
+	right: 150px;
+	left: 160px;
+}
+
+.titre {
+	font-size:45px;
+	background-color: floralwhite;
+	color: deeppink;
+	padding: 45px;
+	font-family: "Lucida Console", Monaco, monospace;
+}
+
+
+body {
+	background-image: url(https://lh3.googleusercontent.com/proxy/7votYQpqTHxyIp9av37NaqfMrfTctNoTDjMsX31Hji7lZxwuQGDnmxD27okuA_dg9ATmoLXLeTAjph942NSaB1yjtU3_ys2WoZ6xnw);
+	}
+
+
+.xtrapadding {
+	border: 0px solid #ddd;
+	padding: 10px;
+	
+}
+
+.clearfix {
+  overflow: auto;
+}
+/*_____________________________________________________________________*/
+header {
+	background-color: DarkSalmon;
+	padding: 40px;
+	text-align: center;
+	font-size: 35px;
+	colour: DarkMegenta;
+}
+nav {
+	float: left;
+	width: 30%;
+	background: Indianred;
+	padding: 20px;
+}
+nav ul {
+	list-style-type:none;
+	padding: 10;
+}
+article {
+	float: left;
+	padding: 20px;
+	width: 70%;
+	background-color: ivory;
+}
+section {
+	content: "";
+	display: table;
+	clear: both;
+}
+footer {
+	background-color: lightcoral;
+	padding: 12px;
+	text-align: center;
+	color: black;
+}
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}

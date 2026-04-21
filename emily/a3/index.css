@@ -1,0 +1,12 @@
+table, th, td {
+	border: 1px solid mediumvioletred;
+}
+
+.center	{
+		text-align: center;
+}
+
+body	{
+		background-color: papayawhip;
+		color: mediumvioletred;
+}

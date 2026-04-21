@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+
+.top-container {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}
+
+.header {
+  padding: 10px 16px;
+  background: #631212;
+  color: #f1f1f1;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+<!-- -->
+* {
+  box-sizing: border-box;
+}
+
+.columns {
+  float: left;
+  width: 33.3%;
+  padding: 8px;
+}
+
+.price {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+  color: white;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.price:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.price .header {
+  background-color: #111;
+  color: white;
+  font-size: 25px;
+}
+
+.price li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+   color: grey;
+}
+
+.price .grey {
+  background-color: #eee;
+  font-size: 20px;
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+  }
+}
+
+#overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 2;
+  cursor: pointer;
+}
+
+<!-- -->
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Times New Roman;
+}
+
+body, html {
+  height: 210%;
+  margin: 0;
+  font-family: Times New Roman;
+}
+
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+.tabcontent {
+  color: black;
+  display: none;
+  padding: 60px 20px;
+  height: 100%;
+
+}
+
+.seeItWorks {
+	margin: 100px;
+	background-color: #631212;
+	padding: 50px;
+
+}
+
+.seeItWorkstwo {
+	margin: 100px;
+	background-color: #04253B;
+	padding: 50px;
+
+}
+
+.seeItWorksthree {
+	margin: 100px;
+	background-color: #520000;
+	padding: 50px;
+
+}
+.first {
+	padding: 50px;
+	margin: 100px;
+	background-color: #04253B;
+}
+.second{
+	padding: 50px;
+	margin: 100px;
+	background-color: #631212;
+}
+.second2{
+	padding: 50px;
+	margin: 100px;
+	background-color: #631212;
+}
+.second3{
+	padding: 50px;
+	margin: 100px;
+	background-color: #631212;
+}
+.second4{
+	padding: 50px;
+	margin: 100px;
+	background-color: #631212;
+}
+
+.seeItWorksfour {
+	margin: 100px;
+	background-color: #2E86C1;
+	padding: 50px;
+
+}
+img {
+
+ padding: 0px;
+}
+h3 {
+	text-align: center;
+	color: white;
+}
+h1 {
+	text-align: center;
+	color: white;
+}
+h4 {
+	text-align: center;
+	color: white;
+}
+
+h5 {
+	text-align: Center;
+	color: white;
+}
+h2 {
+	text-align: center;
+	color: white;
+}
+
+p {
+	text-align: center;
+	color: white;
+}
+#Home {background-color: #2E4053;}
+#History {background-color: #771A1A;}
+#Theory {background-color: #3B0404;}
+#About {background-color: #154360;}
+</style>
+</head>
+<body>
+
+
+
+<!-- -->
+
+<button class="tablink" onclick="openPage('Home', this, '#2E4053')"id="defaultOpen">Home</button>
+<button class="tablink" onclick="openPage('History', this, '#771A1A')" >History</button>
+<button class="tablink" onclick="openPage('Theory', this, '#3B0404')">Composers</button>
+<button class="tablink" onclick="openPage('About', this, '#154360')">About</button>
+
+
+<div id="Home" class="tabcontent">
+
+	<div class="seeItWorkstwo">
+
+  <h1>Music</h1>
+  <p>"Music gives soul to the universe,
+  <br>wings to the mind, flight to the imagination, and life to everything"
+  <br>-Plato
+  </p>
+  </div>
+  <div class="first">
+	<h3>Why Music?</h3>
+	<p>Music is one of the most influencial tools in human history. It represents culture, people, and the human imagination.
+	<br>Take popular artists for example. Their massive following is due to their music!
+	<br>So, for one to truly understand this medium of art, one must understand its significance in human history, from Amadeus to Ariana.</p>
+	</div>
+  <div class="first">
+    <h3> What is Music?</h3>
+	<p>Music is an art form, and cultural activity, whose medium is sound. 
+	<br>General definitions of music include common elements such as pitch, rhythm, dynamics, and the sonic qualities of timbre and texture.</h2>
+  </p>
+	<div id="overlay" onclick="off()"></div>
+	<p style="text-align:center"><button onclick="on()">Turn on dark mode</button></p>
+	</div>
+  </div>
+</div>
+
+<div id="History" class="tabcontent">
+  <div class="header" id="myHeader">
+  <h2>History</h2>
+</div>
+
+  <div class="seeItWorks">
+  <h2> Periods</h2>
+  </div>
+
+  <div class="second">
+  <h3>Medieval Period</h3>
+  <h2>1150 AD - 1400 AD </h2>
+  <p>In the medieval period, music was dominated by European, Roman, and the predominant Georgian chants. It was used by the Church and some secular musicians to gather for mass and prayer.
+  <br> Medieval music has a chant and monphonic sound with a slow rythmn. And as Europe rose from the dark age, the music became more polyphonic, leading to he introduction of more secular music
+  <br> English and Scottish musicians were able to tell stories with music usually about the ideals of love and chivalry.
+  <br> There were few instruments used in the medieval ages as pieces were usually sung. However, those pieces who did have intrumentals used wind, strings, and percussion.
+  <br> Instruments such as the flute, harp, triangle, drums, trumpet, and bagpipe.
+  <br> The medieval age musicians were unique to their time. 
+  <br> <a href="https://en.wikipedia.org/wiki/Hildegard_of_Bingen">Hildegard von Bingen</a>, the earliest female composer, wrote the first musical drama, "The Ritual of the Virtues".
+  <br> <a href="https://en.wikipedia.org/wiki/Moniot_d%27Arras">Moniot d’Arras</a>, a troubadour and a composer who wrote sacred monophonic songs such as “Ce fut en mai.”
+  <br> <a href="https://en.wikipedia.org/wiki/Guillaume_de_Machaut">Guillaume de Machaut</a>, a composer who has representation in his pieces, wrote “Messe de Nostre Dame”.
+  <br> <a href="https://en.wikipedia.org/wiki/Leonel_Power">Leonel Power</a>, a prominent composers at the end of the medieval age, wrote the famous medieval piece "Alma redemptoris mater".
+  
+  </p>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/kK5AohCMX0U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  <div class="second">
+    <h3>Renaissance</h3>
+    <h2>1400 AD - 1600 AD</h2>
+    <p> In the renaissance period, music varied more compared to medieval music. It permitted different ranges of tones and different instruments. Based on the name, music from the Renaissance period was about rebirth. 
+	<br> Music allowed for the recovery of ancient cultures from Greek, latin, and Roman literature.
+	<br> Music works were more widely distributed because of the development of the printing press. Opera was created to give rebirth to ancient latin and Greek music. 
+	<br> Musicians were a highly sough after trade as they could keep political stability in a country through music. This is because despite the growing difference in class, music was a unifying factor.
+	<br> Popular Musicians of the Renaissance period were:
+	<br> <a href="https://en.wikipedia.org/wiki/Giovanni_Pierluigi_da_Palestrina" target="_blank">Giovanni Pierluigi da Palestrina</a>, who influenced church and secular music through his polyphonic style. 
+	<br> 
+ 
+    </p>
+    
+</div>
+  <div class="second">
+    <h3>Baroque</h3>
+    <h2>1600 AD - 1750 AD</h2>
+    <p> Baroque music is a period of Western art music composed.
+	<br>This era is after the Renaissance music era. It was followed by the Classical era. It had the style marking the transition between Baroque and Classical eras. 
+	<br>The Baroque period is divided into three major phases: early, middle, and late. Overlapping, they are dated from 1580 to 1650, from 1630 to 1700, and from 1680 to 1750 respectively. 
+	<br>Baroque music makes up a major portion of the classical music. It is now widely studied, performed, and listened to. The term baroque comes from the Portuguese word barroco.
+	<br>Key composers of the Baroque era include: 
+	<br>Johann Sebastian Bach for his expressive music.
+	<br>Antonio Vivaldi known for his four seasons
+	<br>George Frideric Handel for his great and talented life.
+	<br>Claudio Monteverdi for his music.
+	<br> 
+ </div>
+    </p>
+      <div class="second">
+    <h3>Classical</h3>
+    <h2>1600 AD - 1750 AD</h2>
+    <p> Classical music is art music produced or rooted in the traditions of Western culture, including secular music. 
+	<br>While a more precise term is also used to refer to the period from 1750 to 1820.
+	<br>which includes the Classical period and various other periods.
+	<br>The central norms of this tradition became codified between 1550 and 1900. 
+	<br>And it is known as the common-practice period. Known composers of this era include:
+	<br>Pyotr Ilyich Tchaikovsky who made an international impression from his music.
+	<br>Debussy for his sad music.
+	<br>Mozart for his popular music.
+	<br> 
+ 
+    </p>
+</div>
+</div>
+</div>
+
+<div id="Theory" class="tabcontent">
+	<div class="seeItWorksthree">
+  <h3>Famous Composers</h3>
+  </div>
+  <div class="second3">
+  <h3>Baroque</h3>
+  <h2> Joseph Sabastrian Bach</h2>
+  <img src="back.jpg">
+  <h2> Antonio Vivaldi</h2>
+  <img src="vivaldi.jpg">
+  <h2> Henry Purcel</h2>
+  <img src="purcel.jpg">
+  
+  </div>
+  <div class="second4">
+  <h3>Classical</h3>
+  <h2> Ludwig Van Beethoven</h2>
+  <img src="beet.jpg">
+  <h2> Isaac Albeniz</h2>
+  <img src="al.jpg">
+  <h2> Antonín Dvorák</h2>
+  <img src="dorak.jpg">
+  
+  </div>
+   <div class="second4">
+  <h3>Romantic</h3>
+  <h2> Franz Liszt</h2>
+  <img src="list.jpg">
+  <h2> Fredrick Chopin</h2>
+  <img src="chopin.jpg">
+  <h2> Robert Schumann</h2>
+  <img src="scho.jpg">
+  
+  </div>
+  </div>
+</div>
+
+<div id="About" class="tabcontent">
+	<div class="seeItWorksfour">
+  <h3>About</h3>
+  <h2 style="text-align:center">Music Pricings</h2>
+<p style="text-align:center">To Enhance your musical experience through expert help.</p>
+
+<div class="columns">
+  <ul class="price">
+    <li class="header">Basic</li>
+    <li class="grey">$ 9.99 / month</li>
+    <li>30 Min Weekly Music Class w/ Proffessional</li>
+    <li>5 Instrument Tutorials</li>
+    <li>3 Page practice packets</li>
+    <li>Monthly phone call w/ Proffessional</li>
+    <li class="grey"><a href="signup.html" class="button">Sign Up</a></li>
+  </ul>
+</div>
+
+<div class="columns">
+  <ul class="price">
+    <li class="header" style="background-color:#4CAF50">Pro</li>
+    <li class="grey">$ 24.99 / month</li>
+    <li>1 Hour Weekly Music Class w/ Professional</li>
+    <li>10 Instrument Tutorials</li>
+    <li>5 Page pratice packets</li>
+    <li>Monthly phone call w/ Proffessional</li>
+    <li class="grey"><a href="signup.html" class="button">Sign Up</a></li>
+  </ul>
+</div>
+
+<div class="columns">
+  <ul class="price">
+    <li class="header">Premium</li>
+    <li class="grey">$ 49.99 / month</li>
+    <li>2 Hour Weekly Music Class w/ Proffessional</li>
+    <li>25 Instruments Tutorials</li>
+    <li>20 Page practice packets</li>
+    <li>Weekly phone call w/ Proffessional</li>
+    <li class="grey"><a href="signup.html" class="button">Sign up</a></li>
+  </ul>
+</div>
+  </div>
+</div>
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+
+<script>
+function openPage(pageName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+}
+
+document.getElementById("defaultOpen").click();
+</script>
+<script>
+function on() {
+  document.getElementById("overlay").style.display = "block";
+}
+
+function off() {
+  document.getElementById("overlay").style.display = "none";
+}
+</script>
+<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+</body>
+</html>
