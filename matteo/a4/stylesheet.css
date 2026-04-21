@@ -1,0 +1,51 @@
+.center {
+	text-align: center;
+	font-family: "Times New Roman";
+}
+div.main {
+    background-color: white;
+    color: black;
+    margin-left: 75px;
+	margin-right: 75px;
+	margin-top: 50px;
+	margin-bottom:50px;
+    padding: 20px;
+	padding-top: 20px;
+    font-size: 1.3em;
+    font-family: "Times New Roman";
+}
+a.button {
+	text-align: center;
+	text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 1.5em;
+    font-family: "Times New Roman";
+}
+div.topbar {
+    padding-top: 5px;
+}
+body {
+	text-align: center;
+	background-image: url(images/background.jpg);
+}
+.left{
+	text-align: left;
+	font-family: "Times New Roman";
+}
+div.facts {
+    background-color: white;
+    color: black;
+    margin-left: 225px;
+	margin-right: 225px;
+	margin-top: 150px;
+	margin-bottom:150px;
+    padding: 20px;
+	padding-top: 20px;
+    font-size: 1.3em;
+    font-family: "Times New Roman";
+}

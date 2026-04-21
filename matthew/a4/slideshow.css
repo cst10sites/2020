@@ -1,0 +1,72 @@
+
+.slideshow-element{
+	display: none;
+}
+.image-slideshow{
+  	max-width: 1000px;
+	width: 100%;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+.prev, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 40%;
+	width: auto;
+	padding: 16px;
+	margin-top: -22px;
+	color: rgb(68, 68, 68);
+	background-color: rgba(0,0,0,0.1);
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.2s ease;
+	border-radius: 0 5px 5px 0;
+	user-select: none;
+}
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+	background-color: rgba(0,0,0,0.8);
+	color: white;
+}
+.text-slideshow {
+	font-family: Arial, Helvetica, sans-serif;
+	color: black;
+	font-size: 1.5em;
+	padding: 8px 0;
+	position: absolute;
+	background-color:  rgba(0,0,0,0.1);
+	bottom: 20px;
+	width: 100%;
+	text-align: center;
+}
+.main-slideshow {
+	/*border-top: 4px solid rgba(37, 69, 129,0.5);
+	border-bottom: 4px solid rgba(37, 69, 129,0.5);*/
+	position: relative;
+	margin: auto;
+	display: none;
+}
+.bar-slideshow{
+	text-align: center;
+}
+.bar-element {
+	cursor: pointer;
+	height: 5px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 10%;
+	display: inline-block;
+	transition: background-color 0.3s ease;
+}
+.bar-element:hover {
+  	background-color: rgba(0,0,0,0.7);
+}
+.bar-element.active {
+  	background-color: rgba(0,0,0,0.8);
+}
+/*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow*/

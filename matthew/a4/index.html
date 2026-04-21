@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Retro Consoles</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<link href="slideshow.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<nav class="top-bar">
+		<ul>
+			<li><a href="">Home</a></li>
+			<li><a href="b1/index.html">Timeline</a></li>
+			<li><a href="b2/index.html">Popularity</a></li>
+			<li><a href="b3/index.html">Games</a></li>
+		</ul>
+	</nav>
+	<script src="navbar_resize.js"></script>
+	<script>
+		var slideIndex = 1
+		function changeSlides(change,relative = false){
+			if (relative){
+				slideIndex += change
+			}else{
+				slideIndex = change
+			}
+			updateSlideshow()
+		}
+		function updateSlideshow(){
+			var i;
+			var slides = document.getElementsByClassName("slideshow-element");
+			var bars = document.getElementsByClassName("bar-element");
+			if (slideIndex > slides.length) {slideIndex = 1}
+			if (slideIndex < 1) {slideIndex = slides.length}
+			for (i = 0; i < slides.length; i++) {
+				slides[i].style.display = "none";
+			}
+			for (i = 0; i < bars.length; i++) {
+     			bars[i].className = bars[i].className.replace(" active", "");
+			}
+			slides[slideIndex-1].style.display = "block";  
+			bars[slideIndex-1].className += " active";
+		}
+		window.addEventListener('load', function () {
+			updateSlideshow()
+			document.getElementsByClassName("main-slideshow")[0].style.display = "block"
+		})
+	</script>
+	<h1>Retro Game Consoles</h1>
+	<div class="main-slideshow">
+		<div class="fade slideshow-element">
+			<img class="image-slideshow" src="images/consoles/atari7800.jpg" alt="Atari 7800">
+			<div class="text-slideshow">Atari 7800</div>
+		</div>
+		<div class="fade slideshow-element">
+			<img class="image-slideshow" src="images/consoles/gamecube.jpg" alt="Gamecube">
+			<div class="text-slideshow">Gamecube</div>
+		</div>
+		<div class="fade slideshow-element">
+			<img class="image-slideshow" src="images/consoles/n64.jpg" alt="Nintendo 64">
+			<div class="text-slideshow">Nintendo 64</div>
+		</div>
+		<div class="fade slideshow-element">
+			<img class="image-slideshow" src="images/consoles/nes.jpg" alt="Nintendo Entertainement System">
+			<div class="text-slideshow">Nintendo Entertainement System</div>
+		</div>
+		<div class="fade slideshow-element">
+			<img class="image-slideshow" src="images/consoles/playstation.jpg" alt="Playstation">
+			<div class="text-slideshow">Playstation</div>
+		</div>
+		<div class="fade slideshow-element">
+			<img class="image-slideshow" src="images/consoles/snes.jpg" alt="Super Nintendo Entertainment System">
+			<div class="text-slideshow">Super Nintendo Entertainment System</div>
+		</div>
+		<a class="prev" onclick="changeSlides(-1,true)">&#10094;</a>
+		<a class="next" onclick="changeSlides(1,true)">&#10095;</a>
+		<div class="bar-slideshow"><a class="bar-element" onclick="changeSlides(1)"></a><a class="bar-element" onclick="changeSlides(2)"></a><a class="bar-element" onclick="changeSlides(3)"></a><a class="bar-element" onclick="changeSlides(4)"></a><a class="bar-element" onclick="changeSlides(5)"></a><a class="bar-element" onclick="changeSlides(6)"></a></div>
+	</div>
+	<div class="text">
+		<p>This is a website containing a list of six retro game consoles from between the 1980s to 2000. Above is a slidshow of all of them, showing the clear differences, and the many similarities.</p>
+		<p>Other things that you can find on this site include a <a href="b1/index.html">Timeline</a>, the <a href="b2/index.html">Popularity</a> of the systems, and some of the <a href="b3/index.html">Games</a> that were made for them.</p>
+	</div>
+</body>
+
+</html>
