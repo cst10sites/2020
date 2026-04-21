@@ -1,0 +1,35 @@
+body {
+	background-color: black;
+	color: white;
+	margin: 50px 30px;
+}
+
+div {
+	background-color: white;
+	color: black;
+	padding: 25px;
+	font-size: large;
+}
+
+a.button {
+	background-color: lightblue;
+	color: black;
+	border: 1px solid black;
+	padding: 5px 5px;
+	text-align: center;
+	display: inline-block;
+	text-decoration: none;
+	border-radius: 5px;
+	
+}
+.column {
+  text-align: center;
+  float: left;
+  width: 15%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;

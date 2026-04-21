@@ -1,0 +1,108 @@
+body {
+	background-color: black;
+	color: white;
+	background-image: url(background.jpg);
+  margin-left: 100px; 
+  padding: 10px 10px;
+}
+
+.center {
+	text-align: center;
+}
+
+div.main {
+	text-align: center;
+	background-color: white;
+	color: black;
+	margin-left: 100px;
+	padding: 20px;
+	display: inline-block;
+	font-size: 1em;
+	font-family: 'Roboto Slab', serif;
+	
+
+}
+
+
+
+
+
+h1 {
+	color: white; 
+	font-size: 4em;
+	font-family: 'Roboto Slab', serif;
+	margin-left: 100px;
+}
+
+
+
+h3 {
+	color: black; 
+	font-size: 1.2em;
+	font-family: 'Roboto Slab', serif;
+}
+
+a.button {
+	padding: 20px;
+	background-image: url(background.jpg);
+	color: white ;
+	text-decoration: none;
+	border: 2px solid black;
+	border-radius: 5px;
+	display: inline-block;
+	font-size: 1.2em;
+	font-family: 'Roboto Slab', monospace;
+}
+a.button2 {
+	background-color: white;
+	color: black;
+	padding: 10px;
+	text-decoration: none;
+	border: 2px solid black;
+	border-radius: 5px;
+	display: inline-block;
+	font-size: 1.2em;
+	font-family: 'Roboto Mono', monospace;
+	width: 140px;
+}
+div.sidebar {
+  height: 100%; 
+  width: 150px; 
+  position: fixed; 
+  z-index: 1; 
+  top: 0; 
+  left: 0;
+  overflow-x: hidden; 
+  padding-top: 5px;
+  padding-right: 15px;
+  margin-right: 10px;
+}
+
+
+
+table.main2 {
+	border: 1px solid black;
+	
+}
+
+th {
+	width: 21%;
+	text-align:left;
+	color: black; 
+	font-size: 1.5em;
+	font-family: 'Roboto Slab', serif;
+		border: 1px solid black;
+}
+
+td {
+	text-align:left;
+	color: black; 
+	font-size: 1.2em;
+	font-family: 'Roboto Slab', serif;
+		border: 1px solid black;
+}
+
+tr:nth-child(even) {
+	background-color: #dddddd;
+}
+
