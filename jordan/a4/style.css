@@ -1,0 +1,31 @@
+body{
+		background-image: url("canada_volleyball.jpg");
+		background-repeat: no-repeat; 
+		background-size: 100%;
+		color: black;
+		text-align:center;
+}
+h1.center {
+	text-align:center;
+}
+
+div.main {
+		background-color: orange;
+		color: black;
+		padding: 10px;
+		width: 50%;
+		margin:auto;
+		
+}
+
+a.button{
+	/* CSS Buttons on W3school */
+	padding: 20px;
+	background-color: orange;
+	color: white;
+	text-decoration: none;
+	border: 2px solid black;
+	border-radius: 5px;
+	display: inline-block
+
+}

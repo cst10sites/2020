@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>HTML Table</title>
+<link rel="stylesheet" type="text/css" href="htmltable.css">
+<style>
+th, td {
+   text-align: left;
+   padding: 8px;
+}
+
+tr:nth-child(even) {
+	background-color: #DCDCDC;
+}
+</style>
+</head>
+<body>
+<h1 class="centre">HTML Table</h1>
+<div class="main">
+<table style="width:100%">
+  <tr>
+    <th style="width:4%">Tag</th>
+	<th style="width:60%">Definition</th>
+	<th>Example</th>
+  </tr>
+  <tr>
+    <td>&lt;h1&gt; &lt;/h1&gt;</td>
+	<td>The size of a heading. &lt;h1&gt; is the largest size, going all
+    the way down to &lt;h6&gt; , the smallest size. Anything written within these tags
+    becomes a heading.</td>
+    <td>The title of the website located above the table.</td>
+  </tr>
+  <tr>
+    <td>&lt;title&gt; &lt;/title&gt;</td>
+	<td>Defines the name of the website if anything is written in between these tags. Located in the tab part of it.</td>
+	<td>The name in the tab.</td>
+  </tr>
+  <tr>
+    <td>&lt;p&gt; &lt;/p&gt;</td>
+    <td>Created a new paragraph. Anything written between these tags become part of the paragraph.</td>	
+	<td>This is a paragraph. A very simple one. You can write as many sentences as you want.
+	    So have fun with this. But don't write too many sentences in a paragraph.</td>
+  </tr>
+  <tr>
+    <td>&lt;em&gt; &lt;/em&gt;</td>
+	<td>Italicizes any word, or words, that are written within these tags.</td>
+	<td>This is a <em>new</em> paragraph. Yes, you can <em>italicize</em> words in a paragraph and in <em>some</em> tags.</td>
+  </tr>
+  <tr>
+    <td>&lt;br&gt;</td>
+	<td>If you write this tag after a sentence, you can "break" apart the sentence before that tag from the rest of the paragraph.</td>
+	<td>This sentence is isolated...<br> From the rest of the paragraph. :( </td>
+  </tr>
+  <tr>
+    <td>&lt;strong&gt; &lt;/strong&gt;</td>
+    <td>Makes a word, or words, bold. If you, of course, right it in between the tags. This is great if you want to emphasize a word or a sentence.</td>
+    <td><strong>Pay attention</strong>. This information is <strong>important</strong>.</td>
+  </tr>	
+  <tr>
+    <td>&lt;style&gt; &lt;/style&gt;</td>
+	<td>Contents are Internal CSS written in a piece of HTML code to improve its look.</td>
+	<td>The text align of the table header and the alternating colours of the boxes of the table.</td>
+  </tr>
+  <tr>
+    <td>&lt;hr&gt;</td>
+	<td>Defines a thematic break. Has a default CSS function built into it.</td>
+	<td>An &lt;hr&gt; tag works like this:
+	    <hr>
+		It is a fancier version of the &lt;br&gt; tag.</td>
+  </tr>
+  <tr>
+    <td>&lt;a href="..." target="..."&gt; &lt;/a&gt;</td>
+	<td>Any word or sentence written between these tags becomes a hyperlink to another website. Within the &lt;a&gt; 
+	tag is <strong>href</strong> and the link of the website you want the person who clicked
+	the word or sentence that's underlined to be redirected to. Occasionally, <strong>target</strong> may be used within the tag after <strong>href</strong> to
+    determine if the website will open in the same tab, a different tab or opens a tab each time.
+	CSS may be used to change the font or <em>Un</em>underline a word or a sentence.</td>
+	<td>This is a <a href="https://www.w3schools.com/" target="newtab">hyperlink</a>.</td>
+  </tr>
+    <tr>
+    <td>&lt;img src="..." alt="..." style="..."&gt;</td>
+	<td>Opens up an external or internal image in a website. Regardless of which type of image you're trying to open,
+	 after <strong>img</strong> is the following: <br>
+	    (1) <strong>src</strong>. For an internal image, the image must be in the same folder as the file, and <strong>src</strong>
+		must point to the correct file and extension, such as .JPG, .JPEG, .PNG, etc. For the external image, <strong>src</strong>
+        must point to the <em>exact</em> destination of the image, meaning the full link.<br>
+		(2) <strong>alt</strong>. This <em>must</em> exist, no matter what type of image you're trying to open. Give it a simple
+		tag such as <em>abc</em>, <em>123</em>, and so on. <br>
+		(3) <strong>style</strong>. This is optional. You can change the <em>height</em> or <em>width</em> of any type of image.</td>
+	<td><img src="random.JPG" alt="mcd"> <hr>
+	This image can be opened both <em>internally</em> and <strong>externally</strong>.</td>
+  </tr>
+    <tr>
+    <td>&lt;span style="color:..."&gt; &lt;/span&gt;</td>
+	<td>Within these tags you can change the color of a word or sentence. Always write <em>style</em> after <strong>
+    span</strong>. The color is written in the right side in between the quotations.</td>
+	<td>This <span style="color:yellow">word</span> is colored.</td>
+    </tr>
+	<tr>
+    <td>&lt;iframe&gt; &lt;/iframe&gt;</td>
+	<td>Opens a video in YouTube on a website. Rather than manually writing in the &lt;iframe&gt; tag, you can go to any YouTube video,
+	go to <em>share</em>, then <strong>embed</strong>. Copy the already existing &lt;iframe&gt; tag in the video and paste it in your
+	HTML code.</td>
+	<td><iframe width="560" height="315" src="https://www.youtube.com/embed/uynBcLr8fEc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <hr> 
+	This YouTube video was opened using the &lt;iframe&gt; tag.</td>
+  </tr>
+  	<tr>
+    <td>&lt;li&gt; &lt;/li&gt;</td>
+	<td>Can be used with an ordered or unordered list. Defines a point or a number in either one of the lists.</td>
+	<td> Allow me to demostrate what &lt;li&gt; is:
+	     <ul>
+	     <li>This is part of the list.</li>
+		 <li>This is also part of the list.</li>
+		 <li>So is this part.</li>
+		 </ul> 
+		 </td>
+  </tr>
+    	<tr>
+    <td>&lt;ul&gt; &lt;/ul&gt;</td>
+	<td>Defines an unordered list. Used with &lt;li&gt;. Anything part of the list is incorporated in <strong>point form</strong>.</td>
+	<td> This is an example of an unordered list:
+	     <ul>
+	     <li>Write something here.</li>
+		 <li>Write something there.</li>
+		 <li>Write some more.</li>
+		 </ul> 
+		 </td>
+  </tr>
+      	<tr>
+    <td>&lt;ol&gt; &lt;/ol&gt;</td>
+	<td>Defines an ordered list. Used with &lt;li&gt;. Anything part of the list is incorporated in <strong>numbered form</strong>.</td>
+	<td> This is an example of an ordered list:
+	     <ol>
+	     <li>Write something here.</li>
+		 <li>Write something there.</li>
+		 <li>Write some more.</li>
+		 </ol> 
+		 </td>
+  </tr>
+        	<tr>
+    <td>&lt;div&gt; &lt;/div&gt;</td>
+	<td>Creates a container around the code written within these tags. Some CSS is required to alter some details,
+	such as background color and size.</td>
+	<td>This table is merged with a &lt;div&gt; tag.</td>
+  </tr>
+</table>
+</div>	    
+</body>
+</html>

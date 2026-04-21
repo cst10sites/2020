@@ -1,0 +1,53 @@
+body {
+	background-color:black;
+	margin: 50px 150px;
+	font-family: Arial; 
+	color: white;
+}
+
+.SideBar {
+	height: 90%;
+	width: 200px;
+	padding: 20px;
+	position: fixed;
+	background-color: lightgray;
+}
+
+.sidebar a {
+	color: white;
+	font-size: 200%;
+	text-decoration: none;
+	display: block; 
+}
+
+
+.sidebar a:hover {
+	color: lightgray;
+	background-color: darkgray;
+}
+
+.content {
+	margin-left: 240px;
+	margin-right: 150px;
+	padding: 20px;
+	color: black;
+	background-color: lightblue;
+	position: fixed;
+	overflow-y: scroll;
+	height: 85%;
+	font-size:25px;
+}
+html {
+  background: url(https://images.dexerto.com/uploads/thumbnails/_thumbnailLarge/league-of-legends-summoners-rift-changes-map-riot-games.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+}
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}

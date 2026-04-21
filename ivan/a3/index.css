@@ -1,0 +1,25 @@
+body {
+	background-color: black;
+	color: white;
+}
+
+h1.title {
+	text-align: center;
+}
+
+div.box {
+	background-color: darkgrey;
+	color: darkgrey;
+	margin: 50px;
+	padding:100px;
+}
+
+.button {
+	padding: 20px;
+	background-color: darkslategrey;
+	color: lightgreen;
+	text-decoration: none;
+	display: inline-block;
+	border: 2px solid red;
+	border-radius: 5px;
+}
