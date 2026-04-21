@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title><h1>Interior Design </h1></title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" href="Pictures.jpg" type="image/jpg" >
+    <link href="https://fonts.googleapis.com/css2?family=Carrois+Gothic&display=swap" rel="stylesheet">
+
+
+	<style>
+	body {
+		background-image: url(leafs.jpg); 
+    background-repeat:repeat;
+	}
+	
+	div.scroll {
+  background-color: #eee;
+  width: 200px;
+  height: 100px;
+  border: 1px dotted black;
+  overflow: scroll;
+}
+
+div.centeri {
+  margin-left: 70%;
+  margin-right: 70%;
+}
+
+#content {
+  text-align: center;
+}
+div.white {
+
+    margin: 20px;
+    padding: 40px;
+	text-align: center;
+  
+}
+
+	</style>
+</head>
+<body>
+
+	<div>
+			<ul class="menu">
+			<li class="menu"><a class="menu" href="index.html" id="active">Home</a></li>
+			<li class="menu"><a class="menu" href="pictures.html">Pictures</a></li>
+			<li class="menu"><a class="menu" href="designers.html">Designers</a></li>
+			<li class="menu"><a class="menu" href="buy.html">Buy</a></li>
+			<li class="menu"><a class="menu" href="contactus.html">Contact Us</a></li>
+		</ul>
+	</div>
+	<br>
+	<div>
+		<img src="contactus.png" height="600" width="1265" alt="interior picture">
+	</div>
+
+
+	<div class="content">
+		<h1 class= "bulletwhite">Headquarters</h1>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21001.804495909502!2d2.2825966364538446!3d48.85390902435029!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6701f7e8337b5%3A0xa2cb58dd28914524!2sEiffel%20Tower%2C%20Paris%2C%20France!5e0!3m2!1sen!2sca!4v1585785206159!5m2!1sen!2sca" width="1000" height="450"   allowfullscreen="" aria-hidden="false" tabindex="0">
+		</iframe>
+
+	</div>
+	
+	<br>
+    <div class="white"    style="background-color:white;">
+		<h1 class= "bullet">Our Hours</h1>
+		
+	<canvas id="canvas" width="400" height="400" style="background-color:#FDFEFE"></canvas>
+		<script>
+var canvas = document.getElementById("canvas");
+var ctx = canvas.getContext("2d");
+var radius = canvas.height / 2;
+ctx.translate(radius, radius);
+radius = radius * 0.90
+setInterval(drawClock, 1000);
+
+function drawClock() {
+  ctx.arc(0, 0, radius, 0 , 0 * Math.PI);
+  ctx.fillStyle = "white";
+  ctx.fill();
+}
+function drawClock() {
+  drawFace(ctx, radius);
+}
+
+function drawFace(ctx, radius) {
+  var grad;
+
+  ctx.beginPath();
+  ctx.arc(0, 0, radius, 0, 2 * Math.PI);
+  ctx.fillStyle = 'white';
+  ctx.fill();
+
+  grad = ctx.createRadialGradient(0, 0 ,radius * 0.95, 0, 0, radius * 1.05);
+  grad.addColorStop(0, '#82E0AA ');
+  grad.addColorStop(0.5, 'white');
+  grad.addColorStop(1, '#76D7C4');
+  ctx.strokeStyle = grad;
+  ctx.lineWidth = radius*0.1;
+  ctx.stroke();
+
+  ctx.beginPath();
+  ctx.arc(0, 0, radius * 0.1, 0, 2 * Math.PI);
+  ctx.fillStyle = '#76D7C4 ';
+  ctx.fill();
+}
+function drawClock() {
+  drawFace(ctx, radius);
+  drawNumbers(ctx, radius);
+}
+
+function drawNumbers(ctx, radius) {
+  var ang;
+  var num;
+  ctx.font = radius * 0.15 + "px arial";
+  ctx.textBaseline = "middle";
+  ctx.textAlign = "center";
+  for(num = 1; num < 13; num++){
+    ang = num * Math.PI / 6;
+    ctx.rotate(ang);
+    ctx.translate(0, -radius * 0.85);
+    ctx.rotate(-ang);
+    ctx.fillText(num.toString(), 0, 0);
+    ctx.rotate(ang);
+    ctx.translate(0, radius * 0.85);
+    ctx.rotate(-ang);
+  }
+}
+function drawClock() {
+  drawFace(ctx, radius);
+  drawNumbers(ctx, radius);
+  drawTime(ctx, radius);
+}
+
+function drawTime(ctx, radius){
+  var now = new Date();
+  var hour = now.getHours();
+  var minute = now.getMinutes();
+  var second = now.getSeconds();
+  //hour
+  hour = hour%12;
+  hour = (hour*Math.PI/6)+(minute*Math.PI/(6*60))+(second*Math.PI/(360*60));
+  drawHand(ctx, hour, radius*0.5, radius*0.07);
+  //minute
+  minute = (minute*Math.PI/30)+(second*Math.PI/(30*60));
+  drawHand(ctx, minute, radius*0.8, radius*0.07);
+  // second
+  second = (second*Math.PI/30);
+  drawHand(ctx, second, radius*0.9, radius*0.02);
+}
+
+function drawHand(ctx, pos, length, width) {
+  ctx.beginPath();
+  ctx.lineWidth = width;
+  ctx.lineCap = "round";
+  ctx.moveTo(0,0);
+  ctx.rotate(pos);
+  ctx.lineTo(0, -length);
+  ctx.stroke();
+  ctx.rotate(-pos);
+}
+
+</script>
+
+<h2 class="bullet">Hours from 7AM to 11PM</h2>	
+<br>
+
+	
+    </div>		
+
+		<h1 class="bullet">Contacts</h1>
+		<h2 class="bullet">InteriorDesign@fakemail.com</h2>
+		<h2 class="bullet">604-555-1001</h2>		
+	
+	
+
+	
+	
+
+
+</body>
+</html>

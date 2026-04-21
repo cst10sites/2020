@@ -1,0 +1,90 @@
+
+h1.title {
+	  color: white;
+	 font-family: 'Sacramento', cursive;
+     font-size: 600%;
+	 text-align: center;
+	 text-shadow: 3px 3px;
+}
+
+body {
+ background-image: url("images.jpg");
+ background-color: #cccccc;
+   background-repeat: no-repeat; 
+   background-size: cover
+
+}
+
+div.leaf {
+  text-align: center;
+ margin-left: 70%
+ margin-right: 70%
+}
+
+.button1 {
+ 
+  border: none;
+  color: white;
+  padding: 20px 35px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 12px;
+  background: linear-gradient(to top left, #ff9966 0%, #ffcc00 100%);
+  border: 5px solid white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  cursor: pointer;
+
+}
+
+.button2 {
+ 
+  border: none;
+  color: white;
+  padding: 20px 35px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 12px;
+  background: linear-gradient(to top left, #ccffff 0%, #ccccff 100%);
+  border: 5px solid white;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button3 {
+ 
+  border: none;
+  color: white;
+  padding: 20px 35px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 12px;
+  background: linear-gradient(to top left, #99ffcc 0%, #ccff99 100%);
+  border: 5px solid white;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button4 {
+ 
+  border: none;
+  color: white;
+  padding: 20px 35px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 12px;
+  background: linear-gradient(to top left, #ff99ff 0%, #ffff99 100%);
+  border: 5px solid white;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition-duration: 0.4s;
+  cursor: pointer;
+}
+
