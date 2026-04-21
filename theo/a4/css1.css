@@ -1,0 +1,28 @@
+center-children {
+  text-align: center;
+}
+
+body {
+  background-image: url('download.jfif');
+  background-color: grey;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+semitransparent {
+	background-color: rgba(255,255,255,0.5);
+}
+
+.button {
+    /* CSS buttons on w3school */
+	padding: 20px;
+	background-color: orange;
+	color: white;
+	text-decoration: none;
+	border: 2px solid black;
+	border-radius: 5px;
+	display: inline-block;
+	font-size: 1.2em;
+	font-family: "Comic Sans MS";
+}

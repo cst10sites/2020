@@ -1,0 +1,23 @@
+body{
+	background-color: Black;
+	color: lightgreen;
+}
+.center {
+	text-align: center;
+}
+div.main {
+	background-color: Lightgray;
+	color: Darkorange;
+	margin: 50px;
+	padding: 65px;
+}
+a.button {
+	padding: 20px;
+	background-color: Darkorchid;
+	color: white;
+	text-decoration: none;
+	border: 2px solid black;
+	border-radius: 5px;
+	display: inline-block;
+	font-family: "Comic Sans"
+}

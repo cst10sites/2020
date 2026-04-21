@@ -1,0 +1,111 @@
+.center {
+	text-align: center;
+	font-family: "Comic Sans MS";
+}
+
+div.main {
+	text-align: center;
+	font-size: 40px;
+	font-family: "Comic Sans MS";
+	opacity: 0.92;
+	background-color: grey;
+	color: black;
+	/*margin: -35px 10px -35px 10px;
+	padding-bottom: -1px;
+	padding-top: -1px;*/
+	margin: 10px 10px 10px 10px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+div.main1 {
+	text-align: center;
+	font-size: 40px;
+	font-family: "Courier";
+	opacity: 0.92;
+	background-color: grey;
+	color: black;
+	margin: 15px 10px 15px 10px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	/*margin: 10px 10px 10px 10px;
+	padding-bottom: 10px;
+	padding-top: 10px;*/
+}
+
+div.main2 {
+	text-align: center;
+	font-size: 21px;
+	font-family: "Comic Sans MS";
+	opacity: 0.92;
+	background-color: grey;
+	color: black;
+	margin: 10px 10px 10px 10px;
+	padding-bottom: 6px;
+	padding-top: 6px;
+	padding-left: 6px;
+	padding-right: 6px;
+	/*margin: 10px 10px 10px 10px;
+	padding-bottom: 10px;
+	padding-top: 10px;*/
+}
+
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+table {
+	background-color: lightgray;
+}
+
+
+th {
+	width: 33%;
+	text-align:left;
+	font-size: 1.5em;
+	font-family: "Comic Sans MS";
+}
+
+td {
+	text-align:left;
+	font-size: 1em;
+	font-family: "Comic Sans MS";
+}
+
+tr:nth-child(even) {
+	background-color: lightblue;
+}
+
+a.button1 {
+	padding: 20px;
+	background-color: grey;
+	color: black;
+	text-decoration: none;
+	/*border-radius: 5px;*/
+	display: inline-block;
+	font-size: 0.5em;
+	font-family: "Comic Sans MS";
+}
+
+a.button2 {
+	padding: 0px;
+	text-align: center;
+	font-size: 2.2em;
+	font-family: Tahoma;
+	text-decoration: none;
+	opacity: 0.8;
+	background-color: grey;
+	color: black;
+	display: inline-block;
+}
+
+a.button1:hover {
+  background-color: lightgrey;
+  color: white;
+}
+
+a.button2:hover {
+  background-color: lightgrey;
+  color: white;
+}

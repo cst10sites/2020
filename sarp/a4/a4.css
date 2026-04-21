@@ -1,0 +1,42 @@
+body{
+Background: url("https://media.gettyimages.com/videos/epic-background-loopable-v7-orange-video-id598831302?s=640x640"), url("paper.gif");
+
+Background-repeat: no-repeat;
+background-size: 1800px 1800px;
+color: black;
+}
+.center {
+text-align: center;
+}
+
+.button {
+padding: 20px;
+background-color: DarkGoldenRod;
+color: white;
+text-decoration: none;
+border: 2px solid black;
+display: inline-block;
+font-family: Verdana;
+text-align: center;
+transition: background-color .5s;
+
+}
+
+a.hover {
+	background-color: gold
+	
+}
+
+.info {
+background-color: navajowhite;
+color: black;
+padding: 40px;
+
+}
+
+.centeri {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}

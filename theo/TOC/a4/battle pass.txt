@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="css1.css">
+</head>
+<body>
+<div class="semitransparent">
+<h1 style="font-size:60px;">Fortnite</h1>

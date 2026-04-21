@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Book Information</title>
+
+<link rel = "icon" href =  
+"https://cdn.onlinewebfonts.com/svg/img_330183.png" 
+        type = "image/x-icon"> 
+
+<style>
+
+body, html {
+	height: 100%;
+	margin: 0;
+	background-color: #D0D0D0;
+	color: black;
+	scroll-behavior: smooth;
+}
+
+.container{
+        position: relative;
+		width: 80%;
+        margin: 0 auto;
+}
+
+.container p{
+        line-height: 200px;
+}
+
+.container2 {
+	position: relative;
+	font-family: Courier New;
+	font-size: 65px;
+}
+
+.fixed-header {
+    position: fixed;
+	font-size: 20px;
+	width: 100%;
+    position: fixed;        
+    background: #000;
+    padding: 10px 0;
+    color: #707070;
+	opacity: 0.6;
+	top: 0;
+}
+
+.fixed-footer{
+    position: fixed;
+	font-size: 15px;
+	width: 100%;
+    position: fixed;        
+    padding: 5px 0;
+    color: #FFF;
+	opacity: 0.7;
+	bottom: 0;
+}  
+
+nav a{
+        text-decoration: none;
+        padding: 7px 75px;
+		display: inline-block;
+
+}
+
+.text-block {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.fade-in2 {
+    opacity:0;
+	animation: fadeInAnimation ease-in 2s; 
+	animation-iteration-count: 1; 
+	animation-fill-mode: forwards;
+	text-align: center;
+	}
+	@keyframes fadeInAnimation		{ 
+			0% { 
+                opacity: 0; 
+            } 
+          100% {
+                opacity: 1;
+            } 
+}
+
+.Home:hover {
+	color:#FFFFFF;
+	border-bottom: 1px solid white;
+	padding-bottom: 5px;
+	}
+
+.BookInfo {
+	color: #FFFFFF;
+	border-bottom: 1px solid white;	
+	padding-bottom: 5px;
+	}
+
+.Products:hover {
+	color: #FFFFFF;
+	border-bottom: 1px solid white;
+	padding-bottom: 5px;
+	}
+
+.Purchase:hover {
+	color: #FFFFFF;
+	border-bottom: 1px solid white;
+	padding-bottom: 5px;
+	}
+	
+.Reviews:hover {
+	color: #FFFFFF;
+	border-bottom: 1px solid white;
+	padding-bottom: 5px;
+	}
+
+a:visited {
+  color: #707070;
+}
+
+a:link {
+  color: #707070;
+}
+
+.box {
+  box-shadow: 10px 10px 5px grey;
+  border-style: solid;
+  border-width: 1px;
+  background-color: white;
+  width: 500px;
+  padding-left: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 20px;
+}
+
+.blue {
+ color: blue;
+}
+
+.grey {
+color: grey;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="box">
+
+<h1>Book Details</h1>
+<h4>Author: <span class="blue">Marie Lu</span></h4>
+<h4>Genre: <span class="blue">Science Fiction</span></h4>
+<h4>Book Type: <span class="blue">Fiction</span></h4>
+<h4>Publisher: <span class="blue">Putnam Juneville</span></h4>
+<h4 class="grey">Publication date: November 29, 2011</h4>
+<h4 class="grey">Number of pages: 336</h4>
+
+
+</div>
+
+
+<div class="fade-in2">
+    <div class="fixed-header">
+        <div class="container">
+			<nav>
+                <a class="Home" href="home.html">Home</a>
+                <a class="BookInfo">Details</a>
+                <a class="Products" href="products.html">Trilogy</a>
+                <a class="Purchase" href="Purchase.html">Purchase</a>
+                <a class="Reviews" href="reviews.html">Reviews</a>
+			</nav>
+        </div>
+    </div>
+</div>
+
+<div class="fade-in2">
+    <div class="fixed-footer">
+        <div class="container">&copy; 3524 Bisector Pizza Inc. All rights reserved.</div>
+	</div>
+</div>
+
+</body>
+
+</html>

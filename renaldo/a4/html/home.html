@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Legend Book Series</title>
+
+<link rel = "icon" href =  
+"https://pngimage.net/wp-content/uploads/2018/05/blue-book-icon-png-3.png" 
+        type = "image/x-icon"> 
+
+<style>
+
+body, html {
+	height: 100%;
+	margin: 0;
+	background-image:radial-gradient(#B8B8B8,#A8A8A8);
+	color: black;
+	scroll-behavior: smooth;
+}
+
+.container{
+        position: relative;
+		width: 80%;
+        margin: 0 auto;
+}
+
+.container p{
+        line-height: 200px;
+}
+
+.container2 {
+	position: relative;
+	font-family: Courier New;
+	font-size: 65px;
+}
+
+.fixed-header {
+    position: fixed;
+	font-size: 20px;
+	width: 100%;
+    position: fixed;        
+    background: #000;
+    padding: 10px 0;
+    color: #707070;
+	opacity: 0.6;
+	top: 0;
+}
+
+.fixed-footer{
+    position: fixed;
+	font-size: 15px;
+	width: 100%;
+    position: fixed;        
+    padding: 5px 0;
+    color: #FFF;
+	opacity: 0.7;
+	bottom: 0;
+}  
+
+nav a{
+        text-decoration: none;
+        padding: 7px 75px;
+		display: inline-block;
+
+}
+
+.text-block {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.bg {
+	background-image: url("https://s1.1zoom.me/big0/410/Wolfenstein_Fantastic_489722.jpg");
+	height: 100%; 
+		
+	perspective: 2px;
+	background-attachment:fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+	opacity:0;
+	animation: fadeInAnimation ease-in 2s; 
+	animation-iteration-count: 1; 
+	animation-fill-mode: forwards;
+
+	}
+	@keyframes fadeInAnimation		{ 
+			0% { 
+                opacity: 0; 
+            } 
+            100% { 
+                opacity: 1; 
+            } 
+}
+
+.fade-in {
+    opacity:0;
+	animation: fadeInAnimation ease-in 2s; 
+	animation-iteration-count: 1; 
+	animation-fill-mode: forwards;
+	animation-delay: 0.5s;
+	text-align: center;
+	color: white;
+	}
+	@keyframes fadeInAnimation		{ 
+			0% { 
+                opacity: 0; 
+            } 
+            100% { 
+                opacity: 1; 
+            } 
+}
+
+.fade-in2 {
+    opacity:0;
+	animation: fadeInAnimation ease-in 3s; 
+	animation-iteration-count: 1; 
+	animation-fill-mode: forwards;
+    animation-delay: 1s;
+	text-align: center;
+	}
+	@keyframes fadeInAnimation		{ 
+			0% { 
+                opacity: 0; 
+            } 
+          100% {
+                opacity: 1;
+            } 
+}
+
+.Home {
+	color:#FFFFFF;
+	border-bottom: 1px solid white;
+	padding-bottom: 5px;
+	
+	}
+
+.BookInfo:hover {
+	color: #FFFFFF;
+	border-bottom: 1px solid white;	
+	padding-bottom: 5px;
+	}
+
+.Products:hover {
+	color: #FFFFFF;
+	border-bottom: 1px solid white;
+	padding-bottom: 5px;
+
+	}
+
+.Purchase:hover {
+	color: #FFFFFF;
+	border-bottom: 1px solid white;
+	padding-bottom: 5px;
+
+	}
+	
+.Reviews:hover {
+	color: #FFFFFF;
+	border-bottom: 1px solid white;
+	padding-bottom: 5px;
+
+	}
+
+a:visited {
+  color: #707070;
+}
+
+a:link {
+  color: #707070;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="bg"></div>
+
+<div class="container2">
+	<div class="fade-in">
+		<div class="text-block">
+    <h4>Legend</h4>
+    <p>By: Marie Lu</p>
+		</div>
+  </div>
+</div>
+
+<div class="fade-in2">
+    <div class="fixed-header">
+        <div class="container">
+			<nav>
+                <a class="Home">Home</a>
+                <a class="BookInfo" href="bookinfo.html">Details</a>
+                <a class="Products" href="products.html">Trilogy</a>
+                <a class="Purchase" href="purchase.html">Purchase</a>
+                <a class="Reviews" href="reviews.html">Reviews</a>
+			</nav>
+        </div>
+    </div>
+</div>
+
+<div class="fade-in2">
+    <div class="fixed-footer">
+        <div class="container">&copy; 3524 Bisector Pizza Inc. All rights reserved.</div>
+	</div>
+</div>
+
+</body> 
+
+</html>

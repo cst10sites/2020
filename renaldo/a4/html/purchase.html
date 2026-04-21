@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Buy Now</title>
+
+<link rel = "icon" href =  
+"https://www.pinclipart.com/picdir/big/334-3343189_comprigo-is-the-gold-level-sponsor-of-the.png" 
+        type = "image/x-icon"> 
+
+<style>
+
+body, html {
+	height: 100%;
+	margin: 0;
+	background-image:radial-gradient(#B8B8B8,#A8A8A8);
+	color: black;
+	scroll-behavior: smooth;
+}
+
+.container{
+        position: relative;
+		width: 80%;
+        margin: 0 auto;
+}
+
+.container p{
+        line-height: 200px;
+}
+
+.container2 {
+	position: relative;
+	font-family: Courier New;
+	font-size: 65px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  line-height: 2;
+  font-size: 17px;
+}
+
+.centered2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 200px;
+  
+}
+
+.fixed-header {
+    position: fixed;
+	font-size: 20px;
+	width: 100%;
+    position: fixed;        
+    background: #000;
+    padding: 10px 0;
+    color: #707070;
+	opacity: 0.6;
+	top: 0;
+}
+
+.bg {
+	background-image: url("https://imageproxy.ivaws.com/https://cdn-images-1.medium.com/max/1441/1*tVNG6oTEbMIquoB8k9dNZQ.png");
+	height: 100%; 
+	
+	perspective: 2px;
+	background-attachment:fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 25%;
+}
+
+.fixed-footer{
+    position: fixed;
+	font-size: 15px;
+	width: 100%;
+    position: fixed;        
+    padding: 5px 0;
+    color: #FFF;
+	opacity: 0.7;
+	bottom: 0;
+}  
+
+nav a{
+        text-decoration: none;
+        padding: 7px 75px;
+		display: inline-block;
+
+}
+
+.text-block {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.fade-in2 {
+    opacity:0;
+	animation: fadeInAnimation ease-in 2s; 
+	animation-iteration-count: 1; 
+	animation-fill-mode: forwards;
+	text-align: center;
+	}
+	@keyframes fadeInAnimation		{ 
+			0% { 
+                opacity: 0; 
+            } 
+          100% {
+                opacity: 1;
+            } 
+}
+
+.button {
+  background-color: #d22d2d;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 100px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 30px
+}
+
+.button:hover {
+  background-color: #b94646;
+  }
+
+.Home:hover {
+	color:#FFFFFF;
+	border-bottom: 1px solid white;
+	padding-bottom: 5px;
+	
+	}
+
+.BookInfo:hover {
+	color: #FFFFFF;
+	border-bottom: 1px solid white;	
+	padding-bottom: 5px;
+	}
+
+.Products:hover {
+	color: #FFFFFF;
+	border-bottom: 1px solid white;
+	padding-bottom: 5px;
+
+	}
+
+.Purchase {
+	color: #FFFFFF;
+	border-bottom: 1px solid white;
+	padding-bottom: 5px;
+
+	}
+	
+.Reviews:hover {
+	color: #FFFFFF;
+	border-bottom: 1px solid white;
+	padding-bottom: 5px;
+
+	}
+
+a:visited {
+  color: #707070;
+}
+
+a:link {
+  color: #707070;
+}
+
+
+.text_box {
+  height: 100%;
+  background: radial-gradient(#C8C8C8,#A8A8A8);
+  position: relative;
+}
+
+body {
+	font: 100%/30px 'Helvetica Neue', helvetica, arial, sans-serif;
+}
+
+table {
+	background: #f5f5f5;
+	border-collapse: separate;
+	box-shadow: inset 0 1px 0 #fff;
+	font-size: 12px;
+	line-height: 24px;
+	margin: 30px auto;
+	text-align: left;
+	width: 800px;
+	
+}	
+
+th {
+	background: linear-gradient(#777, #444);
+	border-left: 1px solid #555;
+	border-right: 1px solid #777;
+	border-top: 1px solid #555;
+	border-bottom: 1px solid #333;
+	box-shadow: inset 0 1px 0 #999;
+	color: #fff;
+  font-weight: bold;
+	padding: 10px 15px;
+	position: relative;
+	text-shadow: 0 1px 0 #000;	
+}
+
+th:after {
+	background: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,.08));
+	content: '';
+	display: block;
+	height: 25%;
+	left: 0;
+	margin: 1px 0 0 0;
+	position: absolute;
+	top: 25%;
+	width: 100%;
+}
+
+th:first-child {
+	border-left: 1px solid #777;	
+	box-shadow: inset 1px 1px 0 #999;
+}
+
+th:last-child {
+	box-shadow: inset -1px 1px 0 #999;
+}
+
+td {
+	border-right: 1px solid #fff;
+	border-left: 1px solid #e8e8e8;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #e8e8e8;
+	padding: 10px 15px;
+	position: relative;
+	transition: all 300ms;
+}
+
+td:first-child {
+	box-shadow: inset 1px 0 0 #fff;
+}	
+
+td:last-child {
+	border-right: 1px solid #e8e8e8;
+	box-shadow: inset -1px 0 0 #fff;
+}	
+
+tr:last-of-type td {
+	box-shadow: inset 0 -1px 0 #fff; 
+}
+
+tr:last-of-type td:first-child {
+	box-shadow: inset 1px -1px 0 #fff;
+}	
+
+tr:last-of-type td:last-child {
+	box-shadow: inset -1px -1px 0 #fff;
+}	
+
+tbody:hover td {
+	color: transparent;
+	text-shadow: 0 0 3px #aaa;
+}
+
+tbody:hover tr:hover td {
+	color: #444;
+	text-shadow: 0 1px 0 #fff;
+}
+
+
+</style>
+
+</head>
+
+<body>
+
+<div class="bg"></div>
+
+<div class="centered2">
+	<div class="container3">
+	<a href="#Buy">
+		<button class="button">BUY NOW</button>
+	</a>
+	</div>
+</div>
+
+<div class="bg"></div>
+
+<div class="text_box">
+	<div class="centered2">
+<table>
+  <thead>
+    <tr>
+      <th id="Buy">Legend / Get Now</th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+	  <td><a href="https://www.audible.ca/pd/Legend-Audiobook/B072BH3X9M?qid=1586800023&sr=1-8&ref=a_search_c3_lProduct_1_8&pf_rd_p=65c74350-6dfb-47fa-85fd-1459a4762abd&pf_rd_r=2SKCVYWKQ13E1ZAWFNMF"><img src="https://cdn.iconscout.com/icon/free/png-512/audible-4-569533.png" alt="Audible Logo" width="40"></a></td>
+      <td><strong>Audible</strong></td>
+      <td>Subscription</td>
+	</tr>
+    <tr>
+      <td><a href="https://play.google.com/store/books/details/Marie_Lu_Legend?id=TAn1kinCtdEC"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Google_Play_Books_icon_%282016%29.svg/1200px-Google_Play_Books_icon_%282016%29.svg.png" alt="Google Play Books" width="40"></a></td>
+      <td><strong>Google Play Books</strong></td>
+      <td>$10.99</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.kobo.com/ca/en/ebook/legend-17"><img src="https://is2-ssl.mzstatic.com/image/thumb/Purple113/v4/49/9d/5c/499d5ccd-d7b3-c2bd-8542-139f4072a32c/AppIcon-0-1x_U007emarketing-0-0-85-220-0-8.png/246x0w.png" alt="Audible Logo" width="40"></a></td>
+      <td><strong>Kobo</strong></td>
+      <td>$10.99</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.audiobooks.com/audiobook/legend/196357"><img src="https://images.audiobooks.com/cds/images/Audiobooks_AppIcon.png" alt="Audible Logo" width="40"></a></td>
+      <td><strong>Audiobooks.com</strong></td>
+      <td>$20.00</td>
+    </tr>					
+    <tr>
+      <td><a href="https://www.chapters.indigo.ca/en-ca/books/legend/9780142422076-item.html?ikwid=legend&ikwsec=Home&ikwidx=4"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Indigo_Logo.svg/1200px-Indigo_Logo.svg.png" alt="Audible Logo" width="40"></a></td>
+      <td><strong>Indigo</strong></td>
+      <td>$14.99</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.amazon.ca/Legend-Novel-Book-1-ebook/dp/B0052RDJAO/ref=sr_1_2?keywords=legend&qid=1586800291&sr=8-2"><img src="https://logodix.com/logo/780046.png" alt="Audible Logo" width="70"></a></td>
+      <td><strong>Amazon</strong></td>
+      <td>$10.99</td>
+    </tr>
+  </tbody>
+</table>
+	</div>
+</div>
+
+<div class="fade-in2">
+    <div class="fixed-header">
+        <div class="container">
+			<nav>
+                <a class="Home" href="home.html">Home</a>
+                <a class="BookInfo" href="bookinfo.html">Details</a>
+                <a class="Products" href="products.html">Trilogy</a>
+                <a class="Purchase">Purchase</a>
+                <a class="Reviews" href="reviews.html">Reviews</a>
+			</nav>
+        </div>
+    </div>
+</div>
+
+<div class="fade-in2">
+    <div class="fixed-footer">
+        <div class="container">&copy; 3524 Bisector Pizza Inc. All rights reserved.</div>
+	</div>
+</div>
+
+</body> 
+
+</html>
